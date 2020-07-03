@@ -1,0 +1,6 @@
+framework module Pods_yok {
+  umbrella header "Pods-yok-umbrella.h"
+
+  export *
+  module * { export * }
+}

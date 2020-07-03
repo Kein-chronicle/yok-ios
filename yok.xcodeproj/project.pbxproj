@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EBA37E24AF2F3800AAA798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBA37D24AF2F3800AAA798 /* AppDelegate.swift */; };
+		A6EBA38024AF2F3800AAA798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBA37F24AF2F3800AAA798 /* SceneDelegate.swift */; };
+		A6EBA38224AF2F3800AAA798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBA38124AF2F3800AAA798 /* ViewController.swift */; };
+		A6EBA38524AF2F3800AAA798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EBA38324AF2F3800AAA798 /* Main.storyboard */; };
+		A6EBA38824AF2F3800AAA798 /* yok.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6EBA38624AF2F3800AAA798 /* yok.xcdatamodeld */; };
+		A6EBA38A24AF2F3A00AAA798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EBA38924AF2F3A00AAA798 /* Assets.xcassets */; };
+		A6EBA38D24AF2F3A00AAA798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EBA38B24AF2F3A00AAA798 /* LaunchScreen.storyboard */; };
+		FE9D1F74ABF767794384166C /* Pods_yok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0154B662A1DEBA561BFACA1 /* Pods_yok.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8306D9327D93A4D4F09C8A54 /* Pods-yok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yok.debug.xcconfig"; path = "Target Support Files/Pods-yok/Pods-yok.debug.xcconfig"; sourceTree = "<group>"; };
+		A6EBA37A24AF2F3800AAA798 /* yok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EBA37D24AF2F3800AAA798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6EBA37F24AF2F3800AAA798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6EBA38124AF2F3800AAA798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6EBA38424AF2F3800AAA798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6EBA38724AF2F3800AAA798 /* yok.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = yok.xcdatamodel; sourceTree = "<group>"; };
+		A6EBA38924AF2F3A00AAA798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6EBA38C24AF2F3A00AAA798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6EBA38E24AF2F3A00AAA798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0154B662A1DEBA561BFACA1 /* Pods_yok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDE23C825D67188F2A9CB2A /* Pods-yok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yok.release.xcconfig"; path = "Target Support Files/Pods-yok/Pods-yok.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EBA37724AF2F3800AAA798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9D1F74ABF767794384166C /* Pods_yok.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D381A0A23C778D1EF553454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0154B662A1DEBA561BFACA1 /* Pods_yok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EBA37124AF2F3800AAA798 = {
+			isa = PBXGroup;
+			children = (
+				A6EBA37C24AF2F3800AAA798 /* yok */,
+				A6EBA37B24AF2F3800AAA798 /* Products */,
+				C5003322E49ABF9CC7D78D32 /* Pods */,
+				0D381A0A23C778D1EF553454 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EBA37B24AF2F3800AAA798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBA37A24AF2F3800AAA798 /* yok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EBA37C24AF2F3800AAA798 /* yok */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBA37D24AF2F3800AAA798 /* AppDelegate.swift */,
+				A6EBA37F24AF2F3800AAA798 /* SceneDelegate.swift */,
+				A6EBA38124AF2F3800AAA798 /* ViewController.swift */,
+				A6EBA38324AF2F3800AAA798 /* Main.storyboard */,
+				A6EBA38924AF2F3A00AAA798 /* Assets.xcassets */,
+				A6EBA38B24AF2F3A00AAA798 /* LaunchScreen.storyboard */,
+				A6EBA38E24AF2F3A00AAA798 /* Info.plist */,
+				A6EBA38624AF2F3800AAA798 /* yok.xcdatamodeld */,
+			);
+			path = yok;
+			sourceTree = "<group>";
+		};
+		C5003322E49ABF9CC7D78D32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8306D9327D93A4D4F09C8A54 /* Pods-yok.debug.xcconfig */,
+				DCDE23C825D67188F2A9CB2A /* Pods-yok.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EBA37924AF2F3800AAA798 /* yok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EBA39124AF2F3A00AAA798 /* Build configuration list for PBXNativeTarget "yok" */;
+			buildPhases = (
+				D83FC6FE419E9B1655DB9D38 /* [CP] Check Pods Manifest.lock */,
+				A6EBA37624AF2F3800AAA798 /* Sources */,
+				A6EBA37724AF2F3800AAA798 /* Frameworks */,
+				A6EBA37824AF2F3800AAA798 /* Resources */,
+				681485233BDD417D9BA0C333 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yok;
+			productName = yok;
+			productReference = A6EBA37A24AF2F3800AAA798 /* yok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EBA37224AF2F3800AAA798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = kimjinwan;
+				TargetAttributes = {
+					A6EBA37924AF2F3800AAA798 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = A6EBA37524AF2F3800AAA798 /* Build configuration list for PBXProject "yok" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6EBA37124AF2F3800AAA798;
+			productRefGroup = A6EBA37B24AF2F3800AAA798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EBA37924AF2F3800AAA798 /* yok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EBA37824AF2F3800AAA798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EBA38D24AF2F3A00AAA798 /* LaunchScreen.storyboard in Resources */,
+				A6EBA38A24AF2F3A00AAA798 /* Assets.xcassets in Resources */,
+				A6EBA38524AF2F3800AAA798 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		681485233BDD417D9BA0C333 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yok/Pods-yok-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yok/Pods-yok-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yok/Pods-yok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83FC6FE419E9B1655DB9D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EBA37624AF2F3800AAA798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EBA38224AF2F3800AAA798 /* ViewController.swift in Sources */,
+				A6EBA37E24AF2F3800AAA798 /* AppDelegate.swift in Sources */,
+				A6EBA38024AF2F3800AAA798 /* SceneDelegate.swift in Sources */,
+				A6EBA38824AF2F3800AAA798 /* yok.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6EBA38324AF2F3800AAA798 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EBA38424AF2F3800AAA798 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6EBA38B24AF2F3A00AAA798 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EBA38C24AF2F3A00AAA798 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6EBA38F24AF2F3A00AAA798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6EBA39024AF2F3A00AAA798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EBA39224AF2F3A00AAA798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8306D9327D93A4D4F09C8A54 /* Pods-yok.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKC6P53RFP;
+				INFOPLIST_FILE = yok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimjinwan.yok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6EBA39324AF2F3A00AAA798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDE23C825D67188F2A9CB2A /* Pods-yok.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKC6P53RFP;
+				INFOPLIST_FILE = yok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimjinwan.yok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EBA37524AF2F3800AAA798 /* Build configuration list for PBXProject "yok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EBA38F24AF2F3A00AAA798 /* Debug */,
+				A6EBA39024AF2F3A00AAA798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EBA39124AF2F3A00AAA798 /* Build configuration list for PBXNativeTarget "yok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EBA39224AF2F3A00AAA798 /* Debug */,
+				A6EBA39324AF2F3A00AAA798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6EBA38624AF2F3800AAA798 /* yok.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6EBA38724AF2F3800AAA798 /* yok.xcdatamodel */,
+			);
+			currentVersion = A6EBA38724AF2F3800AAA798 /* yok.xcdatamodel */;
+			path = yok.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A6EBA37224AF2F3800AAA798 /* Project object */;
+}
