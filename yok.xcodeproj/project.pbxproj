@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6E10FAF24B0D74A00A35DC4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E10FAE24B0D74A00A35DC4 /* Models.swift */; };
+		A6E10FB124B0E26B00A35DC4 /* RecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E10FB024B0E26B00A35DC4 /* RecommendView.swift */; };
 		A6EBA37E24AF2F3800AAA798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBA37D24AF2F3800AAA798 /* AppDelegate.swift */; };
 		A6EBA38024AF2F3800AAA798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBA37F24AF2F3800AAA798 /* SceneDelegate.swift */; };
 		A6EBA38224AF2F3800AAA798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBA38124AF2F3800AAA798 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		8306D9327D93A4D4F09C8A54 /* Pods-yok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yok.debug.xcconfig"; path = "Target Support Files/Pods-yok/Pods-yok.debug.xcconfig"; sourceTree = "<group>"; };
+		A6E10FAE24B0D74A00A35DC4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A6E10FB024B0E26B00A35DC4 /* RecommendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendView.swift; sourceTree = "<group>"; };
 		A6EBA37A24AF2F3800AAA798 /* yok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EBA37D24AF2F3800AAA798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6EBA37F24AF2F3800AAA798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				A6EBA37D24AF2F3800AAA798 /* AppDelegate.swift */,
 				A6EBA37F24AF2F3800AAA798 /* SceneDelegate.swift */,
 				A6EBA38124AF2F3800AAA798 /* ViewController.swift */,
+				A6E10FB024B0E26B00A35DC4 /* RecommendView.swift */,
+				A6E10FAE24B0D74A00A35DC4 /* Models.swift */,
 				A6EBA38324AF2F3800AAA798 /* Main.storyboard */,
 				A6EBA38924AF2F3A00AAA798 /* Assets.xcassets */,
 				A6EBA38B24AF2F3A00AAA798 /* LaunchScreen.storyboard */,
@@ -91,7 +97,6 @@
 				8306D9327D93A4D4F09C8A54 /* Pods-yok.debug.xcconfig */,
 				DCDE23C825D67188F2A9CB2A /* Pods-yok.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,9 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6EBA38224AF2F3800AAA798 /* ViewController.swift in Sources */,
+				A6E10FB124B0E26B00A35DC4 /* RecommendView.swift in Sources */,
 				A6EBA37E24AF2F3800AAA798 /* AppDelegate.swift in Sources */,
 				A6EBA38024AF2F3800AAA798 /* SceneDelegate.swift in Sources */,
 				A6EBA38824AF2F3800AAA798 /* yok.xcdatamodeld in Sources */,
+				A6E10FAF24B0D74A00A35DC4 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +372,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kimjinwan.yok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -384,6 +392,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kimjinwan.yok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
